@@ -52,7 +52,7 @@ $image_path = "uploads/" . htmlspecialchars($data['id']) . ".jpg";
           </span>
           <img src="img/user.jpg" alt="User" class="w-10 h-10 rounded-full object-cover border">
         </div>
-        <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md">Agendar Visita</button>
+        <a href="agendar_visita.php" class="block text-gray-700 hover:text-blue-500">📄 Visitas</a>
         <a href="https://wa.me/1234567890" class="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded-md">WhatsApp</a>
         <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">Más Información</button>
         <!-- Botón salir -->
