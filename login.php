@@ -64,9 +64,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Si hubo algún error, lo mostramos en la página
-    if ($errorMessage) {
-        echo "<p style='color: red;'>$errorMessage</p>";
-    }
+    //if ($errorMessage) {
+    //    echo "<p style='color: red;'>$errorMessage</p>";
+    //}
 
     curl_close($ch);
 }
